@@ -1,8 +1,5 @@
 # Denoising Emotional Images with U-Net
 
-**Author**: Amirali Vakili  
-**Course**: Computer Vision
-
 ## 1. Reading Images
 - At first, a function is defined to load and preprocess image data from a CSV file.
 - The data is split into training (28,709 images) and test (3,589 images) sets based on the `Usage` column. Each image has dimensions 48x48, with a single channel.
